@@ -61,8 +61,6 @@
         }
 
         &.k-state-selected {
-            @include appearance( selected-node );
-            background-color: $scheduler-event-bg;
             box-shadow: $scheduler-event-selected-box-shadow;
 
             &::before {

@@ -341,7 +341,7 @@
         box-sizing: border-box;
         border-width: 0;
         border-style: solid;
-        border-radius: 2px;
+        border-radius: $scheduler-event-border-radius;
         text-align: left;
         cursor: default;
         position: absolute;

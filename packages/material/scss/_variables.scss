@@ -1234,10 +1234,12 @@ $switch-off-handle-hovered-gradient: null !default;
 
 
 // Scheduler
+$scheduler-event-border-radius: $border-radius !default;
+
 $scheduler-event-bg: $primary !default;
 $scheduler-event-text: $primary-contrast !default;
 
-$scheduler-event-selected-box-shadow: $box-shadow-depth-3;
+$scheduler-event-selected-box-shadow: $box-shadow-depth-3 !default;
 
 
 // Config maps

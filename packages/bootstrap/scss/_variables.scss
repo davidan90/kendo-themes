@@ -1163,7 +1163,12 @@ $switch-off-handle-hovered-gradient: null !default;
 
 
 // Scheduler
-$scheduler-event-selected-box-shadow: inset 0 0 0 3px rgba(255, 255, 255, 0.5);
+$scheduler-event-border-radius: $border-radius !default;
+
+$scheduler-event-bg: $selected-bg !default;
+$scheduler-event-text: $selected-text !default;
+
+$scheduler-event-selected-box-shadow: inset 0 0 0 3px rgba(255, 255, 255, 0.5) !default;
 
 
 // Config maps
